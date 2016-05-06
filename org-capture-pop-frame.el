@@ -85,7 +85,7 @@
 
 (defcustom ocpf-frame-parameters
   '((name . "org-capture-pop-frame")
-    (width . 100)
+    (width . 80)
     (height . 20)
     (tool-bar-lines . 0)
     (menu-bar-lines . 1))
