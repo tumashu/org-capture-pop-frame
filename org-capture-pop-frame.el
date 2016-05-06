@@ -37,6 +37,8 @@
 ;; 1. This extension is suitable for capturing links and text in firefox.
 ;; 2. You can click with mouse in emacs header-line to finish or abort capture.
 
+;; [[./snapshots/org-capture-pop-frame.gif]]
+
 ;; ** Installation
 
 ;; org-capture-pop-frame is now available from the famous emacs package repo
