@@ -80,7 +80,8 @@
 ;;    2. Config it (Very simple, just change emacsclient path.)
 
 ;;    NOTE: The official org-mode-capture extension can not set some emacsclient options,
-;;    for example: "--socket-name", you can download tumashu's modify [[https://github.com/tumashu/firefox-org-capture/blob/master/org-capture-0.3.0.xpi?raw=true][xpi]].
+;;    for example: "--socket-name", you can download and install tumashu's modify [[https://github.com/tumashu/firefox-org-capture/blob/master/org-capture-0.3.0.xpi?raw=true][org-mode-capture's xpi]]
+;;    instead.
 
 ;;; Code:
 ;; * Code                                                                 :code:
