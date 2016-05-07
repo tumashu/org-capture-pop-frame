@@ -4,7 +4,7 @@
     - [Config org-capture and org-capture-pop-frame](#config-org-capture-and-org-capture-pop-frame)
     - [Config firefox](#config-firefox)
 
-# README<a id="orgf2f91e9"></a>
+# README<a id="orgc341436"></a>
 
 org-capture-pop-frame is an extension of org-capture, when it is enabled,
 org-capure will capture things in a new pop frame, after capture finish or abort.
@@ -17,15 +17,15 @@ NOTE:
 
 ![img](./snapshots/org-capture-pop-frame.gif)
 
-## Installation<a id="org8be87b9"></a>
+## Installation<a id="org5fcce6c"></a>
 
 org-capture-pop-frame is now available from the famous emacs package repo
 [melpa](http://melpa.milkbox.net/), so the recommended way is to install it
 through emacs package management system.
 
-## Configuration<a id="org86fc24c"></a>
+## Configuration<a id="orgda76647"></a>
 
-### Config org-capture and org-capture-pop-frame<a id="orgcc7f59d"></a>
+### Config org-capture and org-capture-pop-frame<a id="orgd506803"></a>
 
     (require 'org-capture)
     (require 'org-capture-pop-frame)
@@ -38,7 +38,7 @@ through emacs package management system.
     "
              :empty-lines 1)))
 
-### Config firefox<a id="org66dc79e"></a>
+### Config firefox<a id="orgf99586b"></a>
 
 You need install **one** of the following firefox extensions, then config it.
 
@@ -61,3 +61,6 @@ You need install **one** of the following firefox extensions, then config it.
     NOTE: The official org-mode-capture extension can not set some emacsclient options,
     for example: "&#x2013;socket-name", you can download and install tumashu's modify [org-mode-capture's xpi](https://github.com/tumashu/firefox-org-capture/blob/master/org-capture-0.3.0.xpi?raw=true)
     instead.
+
+    Firefox (version >= 41) may block this xpi for signature reason, user can set
+    "xpinstall.signatures.required" to "false" in about:config to deal with this problem.

@@ -83,6 +83,9 @@
 ;;    for example: "--socket-name", you can download and install tumashu's modify [[https://github.com/tumashu/firefox-org-capture/blob/master/org-capture-0.3.0.xpi?raw=true][org-mode-capture's xpi]]
 ;;    instead.
 
+;;    Firefox (version >= 41) may block this xpi for signature reason, user can set
+;;    "xpinstall.signatures.required" to "false" in about:config to deal with this problem.
+
 ;;; Code:
 ;; * Code                                                                 :code:
 ;; #+BEGIN_SRC emacs-lisp
