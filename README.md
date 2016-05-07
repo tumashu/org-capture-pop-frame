@@ -1,10 +1,10 @@
 - [README](#readme)
   - [Installation](#installation)
   - [Configuration](#configuration)
-    - [Org-capture and org-capture-pop-frame](#org-capture-and-org-capture-pop-frame)
-    - [Firefox](#firefox)
+    - [Config org-capture and org-capture-pop-frame](#config-org-capture-and-org-capture-pop-frame)
+    - [Config firefox](#config-firefox)
 
-# README<a id="orgf325292"></a>
+# README<a id="org32f72eb"></a>
 
 org-capture-pop-frame is an extension of org-capture, when it is enabled,
 org-capure will capture things in a new pop frame, after capture finish or abort.
@@ -17,15 +17,15 @@ NOTE:
 
 ![img](./snapshots/org-capture-pop-frame.gif)
 
-## Installation<a id="org997581a"></a>
+## Installation<a id="orge16f628"></a>
 
 org-capture-pop-frame is now available from the famous emacs package repo
 [melpa](http://melpa.milkbox.net/), so the recommended way is to install it
 through emacs package management system.
 
-## Configuration<a id="orgd024d2d"></a>
+## Configuration<a id="org723f66f"></a>
 
-### Org-capture and org-capture-pop-frame<a id="orgb21dc72"></a>
+### Config org-capture and org-capture-pop-frame<a id="org3955d5"></a>
 
     (require 'org-capture)
     (require 'org-capture-pop-frame)
@@ -38,7 +38,7 @@ through emacs package management system.
     "
              :empty-lines 1)))
 
-### Firefox<a id="org1248609"></a>
+### Config firefox<a id="org5140484"></a>
 
 You need install **one** of the following firefox extensions, then config it.
 
@@ -55,9 +55,8 @@ You need install **one** of the following firefox extensions, then config it.
     1.  Download links
         1.  <https://addons.mozilla.org/fr/firefox/addon/org-mode-capture/>
         2.  <http://chadok.info/firefox-org-capture>
+        3.  <https://github.com/tumashu/firefox-org-capture> (tumashu modify version)
     2.  Config it (Very simple, just change emacsclient path.)
 
     NOTE: The official org-mode-capture extension can not set some emacsclient options,
-    for example: "&#x2013;socket-name" or "&#x2013;alternate-editor", you can use
-    [my modify version of org-mode-capture](https://github.com/tumashu/firefox-org-capture),
-    The xpi file can download from: <https://github.com/tumashu/firefox-org-capture/blob/master/org-capture-0.3.0.xpi?raw=true>
+    for example: "&#x2013;socket-name", you can download tumashu's modify [xpi](https://github.com/tumashu/firefox-org-capture/blob/master/org-capture-0.3.0.xpi?raw=true).

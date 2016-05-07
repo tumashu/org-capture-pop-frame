@@ -16,12 +16,12 @@
 ;; modify it under the terms of the GNU General Public License
 ;; as published by the Free Software Foundation; either version 3
 ;; of the License, or (at your option) any later version.
-;;
+
 ;; This program is distributed in the hope that it will be useful,
 ;; but WITHOUT ANY WARRANTY; without even the implied warranty of
 ;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ;; GNU General Public License for more details.
-;;
+
 ;; You should have received a copy of the GNU General Public License
 ;; along with GNU Emacs; see the file COPYING.  If not, write to the
 ;; Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
@@ -35,6 +35,7 @@
 ;; the poped frame will be delete.
 
 ;; NOTE:
+
 ;; 1. This extension is suitable for capturing links and text in firefox.
 ;; 2. You can click with mouse in emacs header-line to finish or abort capture.
 
@@ -47,7 +48,7 @@
 ;; through emacs package management system.
 
 ;; ** Configuration
-;; *** Org-capture and org-capture-pop-frame
+;; *** Config org-capture and org-capture-pop-frame
 ;; #+BEGIN_EXAMPLE
 ;; (require 'org-capture)
 ;; (require 'org-capture-pop-frame)
@@ -61,7 +62,7 @@
 ;;          :empty-lines 1)))
 ;; #+END_EXAMPLE
 
-;; *** Firefox
+;; *** Config firefox
 ;; You need install *one* of the following firefox extensions, then config it.
 ;; 1. AppLauncher
 ;;    1. Download links
@@ -75,15 +76,14 @@
 ;;    1. Download links
 ;;       1. https://addons.mozilla.org/fr/firefox/addon/org-mode-capture/
 ;;       2. http://chadok.info/firefox-org-capture
+;;       3. https://github.com/tumashu/firefox-org-capture (tumashu modify version)
 ;;    2. Config it (Very simple, just change emacsclient path.)
 
 ;;    NOTE: The official org-mode-capture extension can not set some emacsclient options,
-;;    for example: "--socket-name" or "--alternate-editor", you can use
-;;    [[https://github.com/tumashu/firefox-org-capture][my modify version of org-mode-capture]],
-;;    The xpi file can download from: https://github.com/tumashu/firefox-org-capture/blob/master/org-capture-0.3.0.xpi?raw=true
+;;    for example: "--socket-name", you can download tumashu's modify [[https://github.com/tumashu/firefox-org-capture/blob/master/org-capture-0.3.0.xpi?raw=true][xpi]].
 
 ;;; Code:
-;; * 代码                                                           :code:
+;; * Code                                                                 :code:
 ;; #+BEGIN_SRC emacs-lisp
 (require 'org-capture)
 
