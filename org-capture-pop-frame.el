@@ -79,7 +79,7 @@
 
 ;;    NOTE: The official org-mode-capture extension can not set some emacsclient options,
 ;;    for example: "--socket-name" or "--alternate-editor", you can use
-;;    [[https://github.com/tumashu/firefox-org-capture][my modify version of org-mode-capture]]
+;;    [[https://github.com/tumashu/firefox-org-capture][my modify version of org-mode-capture]],
 ;;    The xpi file can download from: https://github.com/tumashu/firefox-org-capture/blob/master/org-capture-0.3.0.xpi?raw=true
 
 ;;; Code:
