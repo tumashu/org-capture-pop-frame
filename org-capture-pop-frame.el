@@ -86,6 +86,11 @@
 ;;    Firefox (version >= 41) may block this xpi for signature reason, user can set
 ;;    "xpinstall.signatures.required" to "false" in about:config to deal with this problem.
 
+;; *** Other userful tools
+;; 1. trayit (search in google)
+;; 2. [[https://sourceforge.net/projects/minime-tool/][Minime]]
+;; 3. [[http://moitah.net/][RBtray]]
+
 ;;; Code:
 ;; * Code                                                                 :code:
 ;; #+BEGIN_SRC emacs-lisp
