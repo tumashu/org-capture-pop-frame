@@ -3,8 +3,9 @@
   - [Configuration](#configuration)
     - [Config org-capture and org-capture-pop-frame](#config-org-capture-and-org-capture-pop-frame)
     - [Config firefox](#config-firefox)
+    - [Other userful tools](#other-userful-tools)
 
-# README<a id="org5cb36c5"></a>
+# README<a id="orgb39c3a6"></a>
 
 org-capture-pop-frame is an extension of org-capture, when it is enabled,
 org-capure will capture things in a new pop frame, after capture finish or abort.
@@ -17,15 +18,15 @@ NOTE:
 
 ![img](./snapshots/org-capture-pop-frame.gif)
 
-## Installation<a id="org1784f8e"></a>
+## Installation<a id="org0fc6742"></a>
 
 org-capture-pop-frame is now available from the famous emacs package repo
 [melpa](http://melpa.milkbox.net/), so the recommended way is to install it
 through emacs package management system.
 
-## Configuration<a id="orgfc35e99"></a>
+## Configuration<a id="org14f9368"></a>
 
-### Config org-capture and org-capture-pop-frame<a id="org82f8d90"></a>
+### Config org-capture and org-capture-pop-frame<a id="org633a5e0"></a>
 
     (require 'org-capture)
     (require 'org-capture-pop-frame)
@@ -38,7 +39,7 @@ through emacs package management system.
     "
              :empty-lines 1)))
 
-### Config firefox<a id="orgf6685ef"></a>
+### Config firefox<a id="org8331be4"></a>
 
 You need install **one** of the following firefox extensions, then config it.
 
@@ -64,3 +65,9 @@ You need install **one** of the following firefox extensions, then config it.
 
     Firefox (version >= 41) may block this xpi for signature reason, user can set
     "xpinstall.signatures.required" to "false" in about:config to deal with this problem.
+
+### Other userful tools<a id="org6470fc4"></a>
+
+1.  trayit (search in google)
+2.  [Minime](https://sourceforge.net/projects/minime-tool/)
+3.  [RBtray](http://moitah.net/)
