@@ -5,7 +5,7 @@
     - [Config firefox](#config-firefox)
     - [Other userful tools](#other-userful-tools)
 
-# README<a id="orgb39c3a6"></a>
+# README<a id="org7529ba1"></a>
 
 org-capture-pop-frame is an extension of org-capture, when it is enabled,
 org-capure will capture things in a new pop frame, after capture finish or abort.
@@ -18,15 +18,15 @@ NOTE:
 
 ![img](./snapshots/org-capture-pop-frame.gif)
 
-## Installation<a id="org0fc6742"></a>
+## Installation<a id="org5752ed5"></a>
 
 org-capture-pop-frame is now available from the famous emacs package repo
 [melpa](http://melpa.milkbox.net/), so the recommended way is to install it
 through emacs package management system.
 
-## Configuration<a id="org14f9368"></a>
+## Configuration<a id="orgb4dbc99"></a>
 
-### Config org-capture and org-capture-pop-frame<a id="org633a5e0"></a>
+### Config org-capture and org-capture-pop-frame<a id="orgb1e7f40"></a>
 
     (require 'org-capture)
     (require 'org-capture-pop-frame)
@@ -39,7 +39,7 @@ through emacs package management system.
     "
              :empty-lines 1)))
 
-### Config firefox<a id="org8331be4"></a>
+### Config firefox<a id="orgfc6c50a"></a>
 
 You need install **one** of the following firefox extensions, then config it.
 
@@ -48,9 +48,12 @@ You need install **one** of the following firefox extensions, then config it.
         1.  <https://addons.mozilla.org/zh-CN/firefox/addon/applauncher/?src=api>
         2.  <https://github.com/nobuoka/AppLauncher>
     2.  Applauncher config
+
         1.  Name: org-capture(f) (Edit it)
         2.  Path: /home/feng/emacs/bin/emacsclient (Edit it)
         3.  Args: org-protocol://capture://f/&eurl;/&etitle;/&etext; ("f" is org-capture's key)
+
+        ![img](./snapshots/applauncher.gif)
 2.  org-mode-capture
 
     1.  Download links
@@ -66,7 +69,7 @@ You need install **one** of the following firefox extensions, then config it.
     Firefox (version >= 41) may block this xpi for signature reason, user can set
     "xpinstall.signatures.required" to "false" in about:config to deal with this problem.
 
-### Other userful tools<a id="org6470fc4"></a>
+### Other userful tools<a id="org375ca37"></a>
 
 1.  trayit (search in google)
 2.  [Minime](https://sourceforge.net/projects/minime-tool/)

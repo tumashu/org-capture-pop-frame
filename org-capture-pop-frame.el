@@ -72,6 +72,8 @@
 ;;       1. Name: org-capture(f) (Edit it)
 ;;       2. Path: /home/feng/emacs/bin/emacsclient (Edit it)
 ;;       3. Args: org-protocol://capture://f/&eurl;/&etitle;/&etext; ("f" is org-capture's key)
+
+;;       [[./snapshots/applauncher.gif]]
 ;; 2. org-mode-capture
 ;;    1. Download links
 ;;       1. https://addons.mozilla.org/fr/firefox/addon/org-mode-capture/
