@@ -5,7 +5,7 @@
     - [Config firefox](#config-firefox)
     - [Other userful tools](#other-userful-tools)
 
-# README<a id="org7529ba1"></a>
+# README<a id="org6ed14f1"></a>
 
 org-capture-pop-frame is an extension of org-capture, when it is enabled,
 org-capure will capture things in a new pop frame, after capture finish or abort.
@@ -18,15 +18,15 @@ NOTE:
 
 ![img](./snapshots/org-capture-pop-frame.gif)
 
-## Installation<a id="org5752ed5"></a>
+## Installation<a id="org9c09585"></a>
 
 org-capture-pop-frame is now available from the famous emacs package repo
 [melpa](http://melpa.milkbox.net/), so the recommended way is to install it
 through emacs package management system.
 
-## Configuration<a id="orgb4dbc99"></a>
+## Configuration<a id="org260d6d2"></a>
 
-### Config org-capture and org-capture-pop-frame<a id="orgb1e7f40"></a>
+### Config org-capture and org-capture-pop-frame<a id="orgdd63445"></a>
 
     (require 'org-capture)
     (require 'org-capture-pop-frame)
@@ -39,7 +39,7 @@ through emacs package management system.
     "
              :empty-lines 1)))
 
-### Config firefox<a id="orgfc6c50a"></a>
+### Config firefox<a id="orgb3bd1e8"></a>
 
 You need install **one** of the following firefox extensions, then config it.
 
@@ -69,7 +69,9 @@ You need install **one** of the following firefox extensions, then config it.
     Firefox (version >= 41) may block this xpi for signature reason, user can set
     "xpinstall.signatures.required" to "false" in about:config to deal with this problem.
 
-### Other userful tools<a id="org375ca37"></a>
+    ![img](./snapshots/firefox-org-capture.gif)
+
+### Other userful tools<a id="orgd85f38f"></a>
 
 1.  trayit (search in google)
 2.  [Minime](https://sourceforge.net/projects/minime-tool/)

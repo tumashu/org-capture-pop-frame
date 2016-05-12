@@ -88,6 +88,8 @@
 ;;    Firefox (version >= 41) may block this xpi for signature reason, user can set
 ;;    "xpinstall.signatures.required" to "false" in about:config to deal with this problem.
 
+;;    [[./snapshots/firefox-org-capture.gif]]
+
 ;; *** Other userful tools
 ;; 1. trayit (search in google)
 ;; 2. [[https://sourceforge.net/projects/minime-tool/][Minime]]
