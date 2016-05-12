@@ -4,7 +4,7 @@
     - [Config org-capture and org-capture-pop-frame](#config-org-capture-and-org-capture-pop-frame)
     - [Config firefox](#config-firefox)
 
-# README<a id="orgc341436"></a>
+# README<a id="org5cb36c5"></a>
 
 org-capture-pop-frame is an extension of org-capture, when it is enabled,
 org-capure will capture things in a new pop frame, after capture finish or abort.
@@ -17,15 +17,15 @@ NOTE:
 
 ![img](./snapshots/org-capture-pop-frame.gif)
 
-## Installation<a id="org5fcce6c"></a>
+## Installation<a id="org1784f8e"></a>
 
 org-capture-pop-frame is now available from the famous emacs package repo
 [melpa](http://melpa.milkbox.net/), so the recommended way is to install it
 through emacs package management system.
 
-## Configuration<a id="orgda76647"></a>
+## Configuration<a id="orgfc35e99"></a>
 
-### Config org-capture and org-capture-pop-frame<a id="orgd506803"></a>
+### Config org-capture and org-capture-pop-frame<a id="org82f8d90"></a>
 
     (require 'org-capture)
     (require 'org-capture-pop-frame)
@@ -38,7 +38,7 @@ through emacs package management system.
     "
              :empty-lines 1)))
 
-### Config firefox<a id="orgf99586b"></a>
+### Config firefox<a id="orgf6685ef"></a>
 
 You need install **one** of the following firefox extensions, then config it.
 
