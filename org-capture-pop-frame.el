@@ -113,7 +113,8 @@
   "The frame's parameters poped by org-capture-pop-frame.
 Don't add window-system parameter in this place, for it it
 set by `ocpf---org-capture'."
-  :group 'org-capture-pop-frame)
+  :group 'org-capture-pop-frame
+  :type '(alist :key-type symbol))
 
 (defun ocpf--delete-frame (&rest args)
   "Close capture frame"
