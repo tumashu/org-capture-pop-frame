@@ -141,7 +141,13 @@ set by `ocpf---org-capture'."
                (select-frame frame)
                (setq word-wrap nil)
                (setq truncate-lines nil)
-               (funcall orig-fun goto keys)
+
+               ;; Close the popup frame after pressing "q" or "C-g".
+               ;; https://github.com/malb/emacs.d/blame/197be098ad50d8d7aca4513d63db8705b30017e4/malb.org#L3196-L3198.
+               (condition-case nil
+                   (funcall orig-fun goto keys)
+                 ((debug error) (ocpf--delete-frame)))
+
                (setq header-line-format
                      (list "Capture buffer. "
                            (propertize (substitute-command-keys "Finish \\[org-capture-finalize], ")
